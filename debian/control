@@ -1,0 +1,22 @@
+Source: php-gnupg
+Section: web
+Priority: optional
+Maintainer: Ubuntu MOTU Developers <ubuntu-motu@lists.ubuntu.com>
+XSBC-Origanal-Maintainer: Matthew R. Arnold <marnold@dereferenced.org>
+Vcs-Svn: https://svn.thegnuguru.org/svn/pkg-matt/branches/php-gnupg-ubuntu/
+Vcs-Browser: http://svn.thegnuguru.org/cgi-bin/viewvc.cgi/branches/php-gnupg-ubuntu/?root=matts_packages
+Build-Depends: debhelper (>= 5), php5-dev, gawk, libgpgme11-dev, re2c, chrpath  
+Standards-Version: 3.8.0
+
+
+Package: php5-gnupg
+Architecture: any
+Depends: ${shlibs:Depends}, ${php:Depends}, ${misc:Depends}, libgpgme11
+Suggests: php-doc
+Description: gnupg module for PHP 5
+ This PECL extension provides wrapper functions that interact 
+ with the Gpg Made Easy Library. For Documentation see the PHP manual
+ 
+ 
+
+
