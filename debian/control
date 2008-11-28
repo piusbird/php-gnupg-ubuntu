@@ -2,9 +2,9 @@ Source: php-gnupg
 Section: web
 Priority: optional
 Maintainer: Ubuntu MOTU Developers <ubuntu-motu@lists.ubuntu.com>
-XSBC-Origanal-Maintainer: Matthew R. Arnold <marnold@dereferenced.org>
-Vcs-Svn: https://svn.thegnuguru.org/svn/pkg-matt/branches/php-gnupg-ubuntu/
-Vcs-Browser: http://svn.thegnuguru.org/cgi-bin/viewvc.cgi/branches/php-gnupg-ubuntu/?root=matts_packages
+XSBC-Origanal-Maintainer: Matt Arnold <mattarnold5@gmail.com>
+Vcs-Git: git://github.com/marnold/php-gnupg-ubuntu.git
+Vcs-Browser: http://github.com/marnold/php-gnupg-ubuntu/tree/master
 Build-Depends: debhelper (>= 5), php5-dev, gawk, libgpgme11-dev, re2c, chrpath  
 Standards-Version: 3.8.0
 
